@@ -3,18 +3,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f3f3f3;
+    background-color: #000000;
+    color: #fff;
+}
+
+.containerpass{
+    text-align: center;
+    background-color:rgb(44, 41, 41);
+    margin: 20px;
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color:rgb(44, 41, 41);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,6 +38,15 @@ button {
     margin-top: 10px;
     padding: 8px 16px;
     cursor: pointer;
+}
+
+#chlen {
+    width: 100%;
+    text-align:  left;
+}
+
+#lengthValue {
+    text-align: right;
 }
 
 #passwordDisplay {
